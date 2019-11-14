@@ -1,6 +1,20 @@
 ### Preparing for Elicitation
 
+## Elicitation Refresher
+Prepare for Elicitation:
+1) The first step in requirements elicitation is gleaning a comprehensive and accurate understanding of the project’s business need.
+During the elicitation process, an analyst’s strong understanding of the business need will help her guard against scope creep and
+gold plating, as well as select the proper stakeholders and elicitation techniques.
 
+2) An analyst’s next step in eliciting requirements is ensuring that an adequate amount and mix of stakeholders are secured for the 
+project’s duration. For, as BABOK 2.0 (Business Analysis Body of Knowledge, the definitive guide to all things related to business 
+analysis) notes, a good analyst must “actively engage stakeholders in defining requirements.” According to BABOK, a project’s 
+stakeholders may include customers/end users, suppliers, the project manager, quality analysis, regulators, project sponsors, 
+operational support, domain subject matter experts, and implementation subject matter experts. An analyst must recruit the 
+participation of appropriate stakeholders based on the unique business needs of her project. After an analyst has identified and 
+recruited her stakeholders, and chosen the method(s) by which she will elicit requirements (outlined below), it is advisable for
+her to schedule the time for conducting those methods with stakeholders as far in advance as possible to ensure adequate participation 
+on their parts.
 
 ## Letter from Your Project Manager
 Expand into short-term rental:
@@ -19,6 +33,11 @@ Objectives:
 You will also 
 (5) need to determine how much cash Watershed would need in order to realize any potential profits from converting the properties. 
 
+Link:
+https://www.glowtouch.com/business-analysis-process-flow/
+https://requirementstechniques.wordpress.com/stakeholders-stakeholder-identification-requirements/background-research/
+https://www.modernanalyst.com/Resources/Articles/tabid/115/ID/1427/An-Overview-of-Requirements-Elicitation.aspx
+
 Business Recommendation:
 Should Watershed enter the short-term rental market using some of this client’s property portfolio, or not? If so, 
 which properties should be converted first? You will be presenting your recommendation to Watershed executives in a 5-minute long 
@@ -29,5 +48,23 @@ Summary: We recommend you read at least some of these resources to help orient y
 project, so that, in the peer review at the end of this lesson, you can list three people you would talk to during Elicitation and a
 question you would ask each one of them.
 
+
+## What are Project Managers, Anyway?
+https://www.pmi.org/learning/library/business-analysis-project-management-friction-9643
+
+## Background about the Short-term Rental Industry
+General background:
+http://www.laane.org/wp-content/uploads/2015/08/Short-Term_RentalsLAs-Lost_Housing.pdf
+http://therealdeal.com/issues_articles/long-term-profits-seen-in-short-term-stays/
+
+Need for hospitality services:
+http://www.nytimes.com/2015/06/21/realestate/taking-the-work-out-of-short-term-rentals.html?_r=0
+
+Hints about how other people have modeled the potential profits in short-term rentals:
+https://smartasset.com/mortgage/where-do-airbnb-hosts-make-the-most-money
+
+Issues to take into consideration:
+https://www.buildium.com/blog/do-short-term-rentals-make-sense-for-property-managers/
+http://www.propertymanagementsoftwareguide.com/blog/risks-and-rewards-of-short-term-rentals-1122011/
 
 ### Elicitation Interviews
