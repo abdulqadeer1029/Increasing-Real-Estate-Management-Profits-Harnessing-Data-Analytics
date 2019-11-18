@@ -3,18 +3,9 @@
 ## Elicitation Refresher
 Prepare for Elicitation:
 1) The first step in requirements elicitation is gleaning a comprehensive and accurate understanding of the project’s business need.
-During the elicitation process, an analyst’s strong understanding of the business need will help her guard against scope creep and
-gold plating, as well as select the proper stakeholders and elicitation techniques.
-
-2) An analyst’s next step in eliciting requirements is ensuring that an adequate amount and mix of stakeholders are secured for the 
-project’s duration. For, as BABOK 2.0 (Business Analysis Body of Knowledge, the definitive guide to all things related to business 
-analysis) notes, a good analyst must “actively engage stakeholders in defining requirements.” According to BABOK, a project’s 
-stakeholders may include customers/end users, suppliers, the project manager, quality analysis, regulators, project sponsors, 
-operational support, domain subject matter experts, and implementation subject matter experts. An analyst must recruit the 
-participation of appropriate stakeholders based on the unique business needs of her project. After an analyst has identified and 
-recruited her stakeholders, and chosen the method(s) by which she will elicit requirements (outlined below), it is advisable for
-her to schedule the time for conducting those methods with stakeholders as far in advance as possible to ensure adequate participation 
-on their parts.
+Needs:
+Watershed currently has a time-sensitive opportunity to explore the short-term rental market with one of its top property owners, 
+who has expressed interest in working with Watershed to convert some of its long-term rental properties to short-term rental properties.
 
 Objectives:
 (1) calculate how much it would cost to convert and maintain each of this client’s properties as a short-term rental, and 
@@ -24,6 +15,14 @@ Objectives:
 (4) determine how profitable, overall, it would be if Watershed converted some of this client's properties into short-term rentals.
 You will also 
 (5) need to determine how much cash Watershed would need in order to realize any potential profits from converting the properties. 
+
+
+2) An analyst’s next step in eliciting requirements is ensuring that an adequate amount and mix of stakeholders are secured for the 
+project’s duration. For, as BABOK 2.0 (Business Analysis Body of Knowledge, the definitive guide to all things related to business 
+analysis) notes, a good analyst must “actively engage stakeholders in defining requirements.”
+* Watershed's Marketing Director
+* Watershed's Financial Director
+* Watershed's owners
 
 Link:
 Where does asking questions and talking to stakeholders fit into the life cycle of a data analysis project? 
