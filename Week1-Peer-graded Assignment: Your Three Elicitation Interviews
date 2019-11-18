@@ -24,6 +24,72 @@ Question:
 Link:
 https://www.coursera.org/learn/analytics-capstone/peer/8Nv8A/your-three-elicitation-interviews/review/xndRfJ1VEemVcA6Jh3AJzg
 
+Peer- Graded: 
+Stakeholder 1: The property owner who expressed interest in working with Watershed to convert some of his long-term rental properties to 
+short-term rental properties. This stakeholder is outside of Watershed but must be included as a key stakeholder, since this property
+owner is the direct user of the project's service.
+
+Questions for this stakeholder: (1) What are your specific expectations for this project? (2) How does success look like to you?
+(3) How often do you expect progress update?
+
+In one of previous courses in this specialization, the instructor used a hypothetical project, The Stone Project, to illustrate how 
+important it is to business analyst to understand the needs and expectations of key stakeholders. The business analyst jumped into the
+project without eliciting the stakeholder's requirements and expectations and the result was frustration and abandonment of the project. 
+The above questions will guide the stakeholder to focus on the outcome of the project, think clearly and specifically his expectations 
+and requirements and avoid situations like the Stone Project. The answers will be extremely valuable. 
+
+Stakeholder 2: Project Manager. This stakeholder is inside of Watershed
+
+Questions for the project manager: (1) How would you describe the process of this project? (2) What data or information needs to be 
+tracked and maintained? (3) How often do you expect progress update? (4) Is there a project charter or are there project guidelines 
+that I should know of? (5) What assumptions, i.e., seasonal effects in rental rate, special promotion, furnishing costs,etc., do you 
+want me to take into considerations at this stage of this analysis? (6) Who can I go to and get answers on average short-term rental
+nights on a property, furnishing costs, contracting cost, maintenance cost or the regulatory environment of the short-term rental 
+market?
+
+The author of one of the article for which the link is given in the course website articulated that due to the nature of the working 
+relationship, tension between the project manager and business analyst is inevitable. Some of the top reasons contributing to the project
+manager / business analyst tensions are that project managers think:
+(1) The business analyst doesn't realize the time pressures of the project and act accordingly.
+(2) The business analyst doesn't understand the project management perspective.
+(3) The business analyst doesn't understand the project manager role.
+
+The four questions I am going to ask the project manager are signed to mitigate tensions due to the three tension factors listed above
+and facilitate project progress. The project manager and business analyst both have a leadership role in the project. Tension does not
+only erode the working relationship between the project manager and business analyst, but also impact the entire team and drain the 
+project. Hence, I designed the four questions with the aim to facilitate communication, understand the PM's role and perspectives and 
+ultimately, deliver, as a team, a successful project that meets the stakeholder's needs and adds value to the Watershed. 
+
+Stakeholder 3: The Watershed executive who will make the final decision on whether Watershed will enter the short-term rental market or
+not. This person is inside Watershed and will have a direct impact on the project and therefore must be included as a key stakeholder.
+
+Questions: (1) How does this project add value to Watershed? (2) What does success for this project look like to you? (3) What would 
+you be looking for when I present the model or what do you expect me to be able to discuss or explain?
+
+The reasons for asking the above questions are simple: since this person will be making the final decision, the questions I stated
+above are just too important to be not asked. A lot of the frustrations and failures associated with projects stemmed for unclear 
+requirements and lack of communications. I designed the above questions to mitigate such frustrations and failures. Besides, I also
+think that knowing what the decision-maker is looking for is critical for any project success. 
+
+Some of the questions overlapped, i.e., I will ask two of the stakeholders "how often do you expect progress update?" Keeping key 
+stakeholders informed and engaged throughout the life of the project , yet without overwhelming the stakeholders with all the details 
+of the project, is key to stakeholder satisfaction and project success. I think the question "how often do you expect progress 
+update" will help address that. Certainly, as the project progresses, the stakeholder's expectation may change and that's why agility
+is important. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Elicitation Quiz
 
 1. In your analysis, how much should you assume hospitality costs (for key service, cleaning,etc.) will be?
