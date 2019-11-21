@@ -128,9 +128,9 @@ Hospitaltiy cost:
 The property owner is expected to cover utitlites, so you do not have to take utilities into account in your analysis.
 $200/month for apartments, $300/month for houses
 $300/month for apartments, $400/month for houses
-$300/month for all properties
-Utilities:
-Average cost per month:
+$300/month for all properties R
+(Elicitation Interview with Watershed's Financial Director)
+I also estimated that we should expect to pay $300 per month in utilities for every short-term rental property
 
 3. In your analysis, how much should you assume it will cost to manage the upkeep(replacements and repairs) of a single short-term 
 rental property?
@@ -146,10 +146,10 @@ Short term situation:
 rental property?
 $35,000
 This information was not provided in the elicitation materials (not sure need to review articles again)
-$30,000
+$30,000 R
 $25,000
-Cost to Furnish:
-Short term situation:
+(Elicitation Interview with Watershed's Financial Director)
+ I think Sherry told you it will cost $30,000 to set up an apartment. So then you would account for 20% of the $30,000,
 
 
 5.In your analysis, how long should you assume it will cost to cover late rental payments?
@@ -164,7 +164,7 @@ monthly or yearly liability:
 6. In your analysis, how what percentage of a short-term rental fee should you budget for regulatory fees, such as hotel taxes or 
 legal costs?
 0% X
-15% (Yearly budget?)
+15% R (Yearly budget?)
 20%
 No amount should be budgeted for regulatory fees in the initial analysis X (not wise you should always budget and save for any situation.)
 list regulatory fees: 
@@ -201,7 +201,7 @@ charge accordingly.
 property to a short-term rental property?
 15 years
 3 years 
-5 years
+5 years R
 10 years 
 depreciation: the transition from long term to short term will take time. I Calculate the first 3-5 years profitablity will be most
 affected until watershed is fully short-term operational.
@@ -216,14 +216,23 @@ Expenses:
 * short-term rental fee to provider: 20% of the rent will need to go to whatever hospitality website we use to advertise a property.
  (Elicitation Interview with Watershed's Marketing Director)
 * Regulatory fee
-* Depreciate
-* furnishing: $30,000 (Elicitation Interview with Watershed's Marketing Director)
+ I think it would be wise for you to build into your model a variable representing regulatory tax and fees. What I've seen so far, 
+ suggests 10% of each rental payment should be enough to cover whatever those costs end up being.
+ (Elicitation Interview with Watershed's Marketing Director)
+* Depreciate: upfront cash required to convert a property is to say that the cost will depreciate by 20% each year for five years.
+(Elicitation Interview with Watershed's Financial Director)
+* furnishing: $30,000 
+(Elicitation Interview with Watershed's Marketing Director)
 * Maintenance
 * Utilities
 * Hospitality 
 
-Watershed's Marketing Director Advices
+Watershed's Marketing Director Advices:
 * There does seem to be a market for property managers like us to help make sure the stays go smoothly by taking care of all the 
 pieces between the Airbnb like websites and property owners.
 
+Watershed's Financial Director Advices:
+1. I estimated probably a medium of about $100 per rental
+2. You should also be aware that the properties we manage are not always rented out, but we estimate that we're collecting rents on
+them 97.3% of the time
 
