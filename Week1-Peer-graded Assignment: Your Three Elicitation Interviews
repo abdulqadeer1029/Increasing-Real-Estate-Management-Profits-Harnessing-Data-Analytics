@@ -117,26 +117,26 @@ current properties are?
 ### Elicitation Quiz
 
 1. In your analysis, how much should you assume hospitality costs (for key service, cleaning,etc.) will be?
-$100/night
+$100/night  X
 $100/stay R
-$200/night
-$200/stay
+$200/night  X
+$200/stay  X
 (Elicitation Interview with Watershed's Financial Director)
 When Sherry's intern ask for help researching what those contractors might cost, I estimated probably a medium of about $100 per rental.
 
 2. In your analysis, how much should you assume utilities will cost?
 The property owner is expected to cover utitlites, so you do not have to take utilities into account in your analysis.
-$200/month for apartments, $300/month for houses
-$300/month for apartments, $400/month for houses
+$200/month for apartments, $300/month for houses  X
+$300/month for apartments, $400/month for houses  X
 $300/month for all properties R
 (Elicitation Interview with Watershed's Financial Director)
 I also estimated that we should expect to pay $300 per month in utilities for every short-term rental property
 
 3. In your analysis, how much should you assume it will cost to manage the upkeep(replacements and repairs) of a single short-term 
 rental property?
-$5,000/year
-$2,000/year
-$10,000/year  (edcuated guess I expect maintenance to be one of the highest cost in rental industry)
+$5,000/year  X
+$2,000/year  X
+$10,000/year  X (edcuated guess I expect maintenance to be one of the highest cost in rental industry)
 $6,000/year R
 (Elicitation Interview with Watershed's Marketing Director)
 We also think we'll probably need to allocate $6,000 a year every year after the initial setup to make repairs and replace 
@@ -145,18 +145,18 @@ anything that's broken.
 
 4. In your analysis, how much should you assume it will cost to furnish a Watershed property so that it can be managed as a short-term 
 rental property?
-$35,000
-This information was not provided in the elicitation materials (not sure need to review articles again)
+$35,000 X
+This information was not provided in the elicitation materials  X (not sure need to review articles again)
 $30,000 R
-$25,000
+$25,000  X
 (Elicitation Interview with Watershed's Financial Director)
  I think Sherry told you it will cost $30,000 to set up an apartment. So then you would account for 20% of the $30,000,
 
 
 5.In your analysis, how long should you assume it will cost to cover late rental payments?
-$100/month for each property (short term calculation)
-$200/month for each property
-$5000/year in total for all properties (long term calculation)
+$100/month for each property  X
+$200/month for each property  X
+$5000/year in total for all properties  X 
 Assume all rental payments will be made on time R (receiving payments on time is the most frastrating aspect for rental lords)
 cost of late rental payments:
 monthly or yearly liability:
@@ -166,17 +166,17 @@ down to make sure they pay.
 
 6. In your analysis, how what percentage of a short-term rental fee should you budget for regulatory fees, such as hotel taxes or 
 legal costs?
-0% X
+10% R
 15% X (Yearly budget?)
-20% R
+20% X
 No amount should be budgeted for regulatory fees in the initial analysis X (not wise you should always budget and save for any situation.)
 list regulatory fees: 
 calculate percentage for budgeting:
 
 7. In your analysis, how long should you assume the typical length of a stay in a short-term rental property will be?
-2 days 
+2 days X
 3 days R
-1 day
+1 day  X
 7 day(1 week)
 Average short term stay:(educuated guess 2-3 days)
 Comment:  I think we decided the average was three nights per stay but that number really does depend on the time of year 
@@ -184,16 +184,16 @@ and the location of the property (Elicitation Interview with Watershed's Marketi
 
 8. In your analysis, what percentage of a short-term rental fee should you budget for the online short-term rental provider 
 (like Airbnb)?
-10% 
-25%
-30%
+10% X
+25% X
+30% X
 20% R 
 Airbnb percentage for short term budget: I guess 10 percent because they might not have to deal with all the fees of a traditional
 rental agency however this might change in the future as regulation increases.
 
 9. In your analysis, how much higher should you assume rental prices will be during the summer months compared to the winter months? 
-5%
-2%
+5%  X
+2%  X
 12% X
 No seasonl effects should be incorpated into the initial analysis R 
 (it does! increase of occupancy! usually prices increase specially forplaces with heavy tourism.)
@@ -203,10 +203,10 @@ charge accordingly.
 
 10. In your analysis, over how many years should you depreciate the capital expenditure required to convert a Watershed 
 property to a short-term rental property?
-15 years
-3 years 
+15 years X
+3 years  X
 5 years R
-10 years 
+10 years  X
 depreciation: the transition from long term to short term will take time. I Calculate the first 3-5 years profitablity will be most
 affected until watershed is fully short-term operational.
 short-term rental:
