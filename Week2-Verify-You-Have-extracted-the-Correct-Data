@@ -1,0 +1,64 @@
+### Verify You Have Extracted the Correct Data
+
+# Verify You Have Extracted the Correct Data 
+1. How many tables are there in the Watershed database?
+Tables_in_capstone: 6
+location
+property_type
+st_property_info
+st_rental_dates
+st_rental_prices
+watershed_property_info
+SQL:
+%sql SHOW tables
+
+2. How many fields, or columns, are there in the property_type table? 6
+Fields  Type  Null  Key  Default  Extra
+SQL:
+%sql SHOW columns FROM property_type
+
+3. Which of the following things are true about Watershed property W106?
+It's a 2-bedroom apartment in Austin, TX
+SQL:
+%%sql SELECT w.ws_property_id, w.current_monthly_rent, w.property_type, p.apt_house, p.num_bedrooms, p.kitchen, p.shared, w.location, l.city, l.state, l.zipcode FROM watershed_property_info w, property_type p, location l WHERE w.property_type=p.property_type_id AND w.location=l.location_id limit 20;
+
+4. Which of the following things are true about the example short-term rental property that has the same type (R2) and is found in
+the same location (L4765) as Watershed Property W24? (w.ws_property_id) 
+Night Rental Price
+Occupancy Rate: 2015
+
+%%sql
+SELECT ws_property_id, location, property_type, current_monthly_rent
+FROM watershed_property_info
+WHERE ws_property_id ='W24'
+
+SELECT w.ws_property_id, w.property_type, 
+FROM
+
+5. How many of the client’s 244 Watershed properties have kitchens?
+%%sql
+SELECT p.kitchen
+FROM watershed_property_info w, property_type p, location l
+WHERE p.kitchen = 'Y'
+
+1) In how many cities are Watershed’s client’s properties located? 20
+What are the properties in the Watershed table?
+%%sql
+SELECT ws_property_id, location, property_type, current_monthly_rent
+FROM watershed_property_info
+limit 20
+
+2) Using Tableau, find the average nightly rental price per city for all the sample short-term rental properties in the Watershed database
+that have the same type and location as Watershed’s client’s 244 properties. Sort the results. Which is true?
+
+3) Using Tableau, find the average nightly rental price per property type for all the sample short-term rental properties in 
+the Watershed database that have the same type and location as Watershed’s client’s 244 properties. Sort the results. Which is true?
+
+
+4) Using Tableau, find the average nightly rental price per property type in each city for all the sample short-term rental properties in
+the Watershed database that have the same type and location as Watershed’s client’s 244 properties. In which city is the difference 
+between average nightly rental prices for houses vs. apartments the greatest?
+
+
+5) Are you going to exclude any data points before proceeding to the Excel modeling portion of your project?
+LEFT JOIN st_rental_price st ON st.location=1.location_id AND w.property_type=st.property_type
