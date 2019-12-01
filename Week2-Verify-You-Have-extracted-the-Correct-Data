@@ -20,7 +20,9 @@ SQL:
 3. Which of the following things are true about Watershed property W106?
 It's a 2-bedroom apartment in Austin, TX
 SQL:
-%%sql SELECT w.ws_property_id, w.current_monthly_rent, w.property_type, p.apt_house, p.num_bedrooms, p.kitchen, p.shared, w.location, l.city, l.state, l.zipcode FROM watershed_property_info w, property_type p, location l WHERE w.property_type=p.property_type_id AND w.location=l.location_id limit 20;
+%%sql SELECT w.ws_property_id, w.current_monthly_rent, w.property_type, p.apt_house, p.num_bedrooms, p.kitchen, p.shared, w.location,
+l.city, l.state, l.zipcode FROM watershed_property_info w, property_type p, location l WHERE w.property_type=p.property_type_id 
+AND w.location=l.location_id limit 20;
 
 4. Which of the following things are true about the example short-term rental property that has the same type (R2) and is found in
 the same location (L4765) as Watershed Property W24? (w.ws_property_id) 
@@ -92,17 +94,23 @@ GROUP BY l.city;
 link: 
 https://www.coursera.org/learn/analytics-capstone/discussions/weeks/2/threads/hOLltPqdEeWEAhLOZ9BW_w
 
-2) Using Tableau, find the average nightly rental price per city for all the sample short-term rental properties in the Watershed database
-that have the same type and location as Watershed’s client’s 244 properties. Sort the results. Which is true?
+2) Using Tableau, find the average nightly rental price per city for all the sample short-term rental properties in the Watershed 
+database that have the same type and location as Watershed’s client’s 244 properties. Sort the results. Which is true?
+* The average nightly rental price in Palo is more than $300 greater than the average nightly rental price in Chapel Hill.
 
 3) Using Tableau, find the average nightly rental price per property type for all the sample short-term rental properties in 
 the Watershed database that have the same type and location as Watershed’s client’s 244 properties. Sort the results. Which is true?
+* The average nightly rental price in a 1-bedroom apartment is about $200 less than the average nightly rental price in a 
+2-bedroom house. 
 
-
-4) Using Tableau, find the average nightly rental price per property type in each city for all the sample short-term rental properties in
+4) Using Tableau, find the average nightly rental price per property type in each city for all the sample short-term rental properties 
+in
 the Watershed database that have the same type and location as Watershed’s client’s 244 properties. In which city is the difference 
 between average nightly rental prices for houses vs. apartments the greatest?
+San Diego, CA X
+New York, NY
+Miami, FL
+Charleston, SC
 
-
-5) Are you going to exclude any data points before proceeding to the Excel modeling portion of your project?
-LEFT JOIN st_rental_price st ON st.location=1.location_id AND w.property_type=st.property_type
+5) Are you going to exclude any data points before proceeding to the Excel modeling portion of your project? No
+* We just wanted to double-check that you knew not to exclude any data when you do your Excel analyses next week!
