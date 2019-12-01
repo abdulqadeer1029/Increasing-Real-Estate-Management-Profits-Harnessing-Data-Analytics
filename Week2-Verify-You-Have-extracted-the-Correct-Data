@@ -1,6 +1,6 @@
 ### Verify You Have Extracted the Correct Data
 
-# Verify You Have Extracted the Correct Data 
+## Verify You Have Extracted the Correct Data 
 1. How many tables are there in the Watershed database?
 Tables_in_capstone: 6
 location
@@ -66,8 +66,7 @@ Link:
 https://www.coursera.org/learn/analytics-capstone/discussions/weeks/2/threads/eFjtrsuvEemTUBLueEAsDA
 
 
-
-
+## Make Sure You Understand What Your Data Mean
 1) In how many cities are Watershed’s client’s properties located? 20
 What are the properties in the Watershed table?
 %%sql
