@@ -12,7 +12,7 @@ watershed_property_info
 SQL:
 %sql SHOW tables
 
-2. How many fields, or columns, are there in the property_type table? 6
+2. How many fields, or columns, are there in the property_type table? 5
 Fields  Type  Null  Key  Default  Extra
 SQL:
 %sql SHOW columns FROM property_type
