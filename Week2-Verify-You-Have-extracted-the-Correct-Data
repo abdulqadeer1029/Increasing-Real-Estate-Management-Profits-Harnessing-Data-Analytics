@@ -24,22 +24,48 @@ SQL:
 
 4. Which of the following things are true about the example short-term rental property that has the same type (R2) and is found in
 the same location (L4765) as Watershed Property W24? (w.ws_property_id) 
-Night Rental Price
-Occupancy Rate: 2015
+Answer: The nigthly rental price is $239 and it's occupancy rate is 2015 was 67.7%
 
 %%sql
-SELECT ws_property_id, location, property_type, current_monthly_rent
-FROM watershed_property_info
-WHERE ws_property_id ='W24'
 
-SELECT w.ws_property_id, w.property_type, 
-FROM
+SELECT DISTINCT w.ws_property_id,w.location, w.property_type,srd.st_property,(COUNT(DISTINCT srd.rental_date)/365)*100 
+AS occupancy_percentage, srp.sample_nightly_rent_price
+
+FROM watershed_property_info w JOIN st_property_info spi ON (w.location=spi.location AND w.property_type=spi.property_type)
+
+JOIN st_rental_prices srp ON (spi.location=srp.location AND spi.property_type=srp.property_type)
+
+JOIN st_rental_dates srd ON spi.st_property_id = srd.st_property
+
+WHERE YEAR(srd.rental_date)="2015" AND w.ws_property_id="W24"
+
+GROUP BY w.ws_property_id,w.location, w.property_type,srd.st_property
+
+Link:
+https://www.coursera.org/learn/analytics-capstone/discussions/weeks/2/threads/0oDMW8CQEeiRIxJLVoBbPg
 
 5. How many of the client’s 244 Watershed properties have kitchens?
 %%sql
 SELECT p.kitchen
 FROM watershed_property_info w, property_type p, location l
 WHERE p.kitchen = 'Y'
+
+## Code to combine fields from all six tables into one master table and export it to Excel
+Capstone_data=%sql SELECT DISTINCT w.ws_property_id,w.location, w.property_type,w.current_monthly_rent,srp.percentile_10th_price,
+srp.percentile_90th_price,srp.sample_nightly_rent_price,srd.rental_date,srd.st_property, COUNT(srd.rental_date)/365 AS occupancy_rate,
+p.apt_house,p.num_bedrooms,p.kitchen,p.shared,l.city,l.state,l.zipcode FROM watershed_property_info w JOIN st_property_info spi 
+ON (w.location=spi.location AND w.property_type=spi.property_type) JOIN st_rental_prices srp ON (spi.location=srp.location 
+AND spi.property_type=srp.property_type) JOIN property_type p ON w.property_type=p.property_type_id JOIN location l 
+ON w.location=l.location_id JOIN st_rental_dates srd ON spi.st_property_id = srd.st_property WHERE YEAR(srd.rental_date)=2015 
+GROUP BY srd.st_property  
+
+Capstone_data.csv('Capstone_data.csv')
+
+Link:
+https://www.coursera.org/learn/analytics-capstone/discussions/weeks/2/threads/eFjtrsuvEemTUBLueEAsDA
+
+
+
 
 1) In how many cities are Watershed’s client’s properties located? 20
 What are the properties in the Watershed table?
