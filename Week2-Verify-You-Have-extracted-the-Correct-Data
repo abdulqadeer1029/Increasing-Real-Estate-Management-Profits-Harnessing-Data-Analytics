@@ -122,5 +122,12 @@ New York, NY
 Miami, FL R
 Charleston, SC
 
+Comment:
+Great job! This is evidence that there is an interaction between property type and location such that the difference in rental prices
+between different property types varies quite a lot in different locations. The rental prices for houses in Chapel Hill are only about
+$50 more per night than rental prices for apartments in Chapel Hill, but rental prices for houses in Miami are over $350 more per night
+than rental prices for apartments in Miami. This means you will likely want to take into account BOTH property type AND location in 
+your analys
+
 5) Are you going to exclude any data points before proceeding to the Excel modeling portion of your project? No
 * We just wanted to double-check that you knew not to exclude any data when you do your Excel analyses next week!
