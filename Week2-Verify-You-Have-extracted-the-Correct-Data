@@ -45,10 +45,11 @@ Link:
 https://www.coursera.org/learn/analytics-capstone/discussions/weeks/2/threads/0oDMW8CQEeiRIxJLVoBbPg
 
 5. How many of the client’s 244 Watershed properties have kitchens?
-%%sql
-SELECT p.kitchen
-FROM watershed_property_info w, property_type p, location l
-WHERE p.kitchen = 'Y'
+Anwser: 244
+=COUNTIF(I2:I245,"Y")
+
+Link:
+https://www.coursera.org/learn/analytics-capstone/discussions/weeks/2/threads/ThdHv8edEeaW8w7S85CwSA/replies/pkqLy8e1EeasiQ5A6jAKtA
 
 ## Code to combine fields from all six tables into one master table and export it to Excel
 Capstone_data=%sql SELECT DISTINCT w.ws_property_id,w.location, w.property_type,w.current_monthly_rent,srp.percentile_10th_price,
