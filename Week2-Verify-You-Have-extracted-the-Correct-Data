@@ -98,10 +98,20 @@ https://www.coursera.org/learn/analytics-capstone/discussions/weeks/2/threads/hO
 database that have the same type and location as Watershed’s client’s 244 properties. Sort the results. Which is true?
 * The average nightly rental price in Palo is more than $300 greater than the average nightly rental price in Chapel Hill.
 
+Chapel hill: Avg Nightly rent price 148.2
+Palo Alot avg. nightly rent price $483.9
+Difference between both cities: $335.7 
+
 3) Using Tableau, find the average nightly rental price per property type for all the sample short-term rental properties in 
 the Watershed database that have the same type and location as Watershed’s client’s 244 properties. Sort the results. Which is true?
 * The average nightly rental price in a 1-bedroom apartment is about $200 less than the average nightly rental price in a 
-2-bedroom house. 
+2-bedroom house.
+1 bedroom apt: AVG $244.6
+1 bedroom house: AVG $443.8
+Difference: $199.2
+
+link:
+https://www.coursera.org/learn/analytics-capstone/discussions/weeks/2/threads/4J0Gh1rkEeeQwApbqFuYng
 
 4) Using Tableau, find the average nightly rental price per property type in each city for all the sample short-term rental properties 
 in
@@ -109,7 +119,7 @@ the Watershed database that have the same type and location as Watershed’s cli
 between average nightly rental prices for houses vs. apartments the greatest?
 San Diego, CA X
 New York, NY
-Miami, FL
+Miami, FL R
 Charleston, SC
 
 5) Are you going to exclude any data points before proceeding to the Excel modeling portion of your project? No
