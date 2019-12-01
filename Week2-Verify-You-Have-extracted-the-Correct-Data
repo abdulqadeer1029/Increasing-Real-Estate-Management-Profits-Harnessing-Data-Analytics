@@ -67,12 +67,30 @@ https://www.coursera.org/learn/analytics-capstone/discussions/weeks/2/threads/eF
 
 
 ## Make Sure You Understand What Your Data Mean
-1) In how many cities are Watershed’s client’s properties located? 20
-What are the properties in the Watershed table?
+1) In how many cities are Watershed’s client’s properties located? 14 [From excel File]
+Austin
+Bentonville 
+Chapel hill
+Charleston
+Chicago
+Columbus
+Denver
+Miami
+New york
+Omaha
+Palo Alto
+Richmond
+San Diego
+San Francisco
+
 %%sql
-SELECT ws_property_id, location, property_type, current_monthly_rent
-FROM watershed_property_info
-limit 20
+SELECT l.location_id, l.city
+FROM watershed_property_info w, location l
+WHERE l.location_id=w.location
+GROUP BY l.city;
+
+link: 
+https://www.coursera.org/learn/analytics-capstone/discussions/weeks/2/threads/hOLltPqdEeWEAhLOZ9BW_w
 
 2) Using Tableau, find the average nightly rental price per city for all the sample short-term rental properties in the Watershed database
 that have the same type and location as Watershed’s client’s 244 properties. Sort the results. Which is true?
