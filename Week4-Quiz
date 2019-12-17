@@ -3,34 +3,34 @@
 ## Alternative To Solver
 
 Question 1 For Watershed property 34 (W34), what is the optimal rent?
-$345
+$345 R
 $446
 $378
 
 Question 2 For Watershed property 34 (W34), what are the revenues after a 30% Fee?
 $26,672
 $32,355
-$47,177
+$47,177 R
 
 Question 3 For Watershed property 13 (W13), what is the optimal percentile?
 34th
-10th
+10th R
 12th
 
 Question 4 For Watershed property 13 (W13), occupancy rate?
-77.15%
+77.15% R
 50.5%
 66.24%
 
 Question 5 For Watershed property 33 (W33), what is the optimal percentile?
 44.2%
 39.8%
-41.8%
+41.8% R
 
 Question 6 For Watershed property 33 (W33), what is the optimal rent?
 $222
 $397
-$374
+$374 R
 
 ## Profitability 
 Question 1 At a 30% Transaction Fee, how many properties are above the cutoff?
