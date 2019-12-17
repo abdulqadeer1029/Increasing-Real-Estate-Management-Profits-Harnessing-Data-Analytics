@@ -76,7 +76,7 @@ No R (all 41 properties that met the cut off requirements have positive cash-flo
 ## Sensitivity Analysis: Measuring Cutoffs at 40% Transaction Fee
 Question 1: How many properties are above the $6,000 cutoff at a 40% transaction fee instead of 30%, holding all other assumptions 
 constant?
-26 R (Column T1)
+26 R (Adjusst Column T1 from 30% to 40%)
 27
 13
 14
