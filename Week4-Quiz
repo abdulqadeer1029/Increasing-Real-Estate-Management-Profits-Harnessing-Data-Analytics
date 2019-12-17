@@ -10,7 +10,10 @@ $378
 Question 2 For Watershed property 34 (W34), what are the revenues after a 30% Fee?
 $26,672
 $32,355
-$47,177 R
+$47,177 R (column AD176)
+
+Comment: Hi It may be $47161/Yr , u choose nearest option which is $47177.
+link: https://www.coursera.org/learn/analytics-capstone/discussions/weeks/4/threads/kmeN8jbWEeaxRgoHcBYCIQ
 
 Question 3 For Watershed property 13 (W13), what is the optimal percentile?
 34th
@@ -68,7 +71,7 @@ Question 2: Are any properties above the $6,000 cutoff still net cash-flow negat
 Maybe
 Yes
 Not enough data to make a determination
-No R
+No R (all 41 properties that met the cut off requirements have positive cash-flows)
 
 ## Sensitivity Analysis: Measuring Cutoffs at 40% Transaction Fee
 Question 1: How many properties are above the $6,000 cutoff at a 40% transaction fee instead of 30%, holding all other assumptions 
