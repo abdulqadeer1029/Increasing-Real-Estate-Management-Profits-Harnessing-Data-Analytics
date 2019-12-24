@@ -1,4 +1,19 @@
 ### Week 5 Outline
+Measures:
+* Yearly'Cash'Flow'(Conversion'Year)
+* Yearly'Cash'Flow'(After'Conversion'Year)
+* Yearly'Profits"(Conversion"Year)
+* Yearly'Profits'(After'Conversion'Year)
+
+Visuals:
+Histogram
+Boxplot
+Table
+
+Comment:
+Once you have upload the table into Tableau, you want to duplicate all the columns in the "Capstone-Template-Spreadsheets-5-to-6-updated"
+workbook. That means columns W to AQ of the "5-Forecast Cash Flow + Profits" worksheet and columns F to I of the "6 - Sorting by
+profitability" worksheet.
 
 ## Replicating Excel in tableau
 
