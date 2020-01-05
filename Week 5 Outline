@@ -12,6 +12,19 @@ Once you have upload the table into Tableau, you want to duplicate all the colum
 workbook. That means columns W to AQ of the "5-Forecast Cash Flow + Profits" worksheet and columns F to I of the "6 - Sorting by
 profitability" worksheet.
 
+Parameters: Refer to the "Forecast cash flow + profits" worksheets. The parameters are in column AG.
+Capital expenditure
+Depreciation in years 
+Utility cost every year
+Repairs and Replacements after conversion year
+Variable cost per guest visit
+Average length of guest stay
+Transaction rate
+Cut-off threshold
+
+You need to create TWO copies for each of those parameters in Tableau, one fixed, on dynamic.
+
+
 ## Replicating Excel in tableau
 
 Links:
