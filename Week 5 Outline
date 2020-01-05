@@ -7,6 +7,19 @@ Measures: Make a bar graph for each
 * Yearly'Profits"(Conversion"Year)
 * Yearly'Profits'(After'Conversion'Year)
 
+Net Forecast Change in Cash Flow, Conversion Year
+Net Change in Cash Flow, Each Year Thereafter (for next 4 years)
+Net Change in Profits, Conversion year
+Net Change in Profits, each year thereafter (for next 4 years)
+Link:
+https://www.coursera.org/learn/analytics-capstone/discussions/weeks/5/threads/8oNVf0JXEeakuhJbRt69hQ
+
+github: tableau workbook
+Net Change in Profits, each year thereafter
+Net Change in Cash Flow, each year thereafter
+Net Change in Profits, conversion year
+Net Forecast Change in Cash Flow, conversion year
+
 Comment:
 Once you have upload the table into Tableau, you want to duplicate all the columns in the "Capstone-Template-Spreadsheets-5-to-6-updated"
 workbook. That means columns W to AQ of the "5-Forecast Cash Flow + Profits" worksheet and columns F to I of the "6 - Sorting by
@@ -23,6 +36,13 @@ Transaction rate
 Cut-off threshold
 
 You need to create TWO copies for each of those parameters in Tableau, one fixed, on dynamic.
+
+Key points:
+(1) you REALLY need to create two versions of each parameter, a fixed version and a dynamic version.
+(2) create two versions of each calculated field as well, as version using the fixed parameters, the other version using the dynamic 
+parameters. It will not only help you with the table, you need that for the final dashboard that you are presenting to the Watershed
+executives as well, so that they can change the parameters and see how the changes will impact cash flows, profits, number of profitable
+properties and total cash need for conversion.
 
 
 ## Replicating Excel in tableau
