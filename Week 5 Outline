@@ -1,5 +1,14 @@
 ### Week 5 Outline
-## Step1 
+Dynamic: If a property has a profit of this number or higher, it is considered "Profitable" and is included in the list of properties 
+being considered. ( The new assumptions that you entered through your parameters.
+* Profitability cut- off (Dynamic)
+
+Fixed: Original: $ 6000 (original ilicitation assumptions)
+* Profitability cut- off (Fixed)
+
+Then you create a set of binary calculated fields that are going to make a binary output.
+* Profitable or Not? (Fixed)
+* Profitable or Not? (Variable)
 
 Measures: Make a bar graph for each
 * Yearly'Cash'Flow'(Conversion'Year)
