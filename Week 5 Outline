@@ -10,6 +10,10 @@ Then you create a set of binary calculated fields that are going to make a binar
 * Profitable or Not? (Fixed)
 * Profitable or Not? (Variable)
 
+However: Make a Fixed and Variable calculated field for the following measure.
+Net Change in Profits, each year thereafter (for next 4 years) (Fixed)
+Net Change in Profits, each year thereafter (for next 4 years) (Variable)
+
 Measures: Make a bar graph for each
 * Yearly'Cash'Flow'(Conversion'Year)
 * Yearly'Cash'Flow'(After'Conversion'Year)
