@@ -71,7 +71,9 @@ End
 [Variable cost] * [Est Guest per Yr (Fixed)]
 
 #4 Short Term Rental - Cash in (monthly ) Variable
+([Normalized Occupancy Rate] * [Nights in an average Month] *[Sample Nightly Rent Price]) * (1-([Transaction Fee (Variable)]+[Regulatory Fees (Variable)]))
 #4 Transaction Fee (Variable)
+- Parameter
 
 #4 Current Monthly Rent
 - Measure
@@ -91,6 +93,68 @@ End
 - Parameter
 #4 Est Guest per Yr (Variable)
 - [Occupancy Rate] *(365/12)* (12/[Average Rental Period (Nights) (Variable)])
+
+#4 Short Term Rental - Cash in (Monthly)
+([Normalized Occupancy Rate] * [Nights in an average Month] *[Sample Nightly Rent Price]) * (1-([Transaction Fee (Fixed)]+[Regulatory Fees (fixed)]))
+#4 Transaction Fee (Fixed)
+- Parameter
+
+#4 Current Monthly Rent
+- Measure
+
+#4 Capital Expenditure Fixed
+- Parameter
+#4 Depeciation Straightline Method
+- Parameter
+
+#4 Utility Cost
+- Parameter
+
+#4 Variable cost
+- Paramater
+#4 Est Guest per Yr (Fixed)
+[Occupancy Rate] *(365/12)* (12/[Average Rental Period (Nights)])
+
+#5 Normalized Occupancy Rate
+(0.8*[Sample Nightly Rent Price] -[Percentile 10Th Price])/([Percentile 90Th Price] -[Percentile 10Th Price]) +.1
+#5 Nights in an average Month
+365/12
+#5 Sample Nightly Rent Price
+- Measure
+#5 Transaction Fee (Variable)
+- Parameter
+#5 Regulatory Fees (Variable)
+- Parameter
+
+#5 Occupancy Rate
+- Measure
+#5 Average Rental Period (Nights) (Variable)
+ - Parameter
+ 
+#5 Normalized Occupancy Rate
+(0.8*[Sample Nightly Rent Price] -[Percentile 10Th Price])/([Percentile 90Th Price] -[Percentile 10Th Price]) +.1
+#5 Nights in an average Month
+365/12
+#5 Sample Nightly Rent Price
+- Measure
+#5 Transaction Fee (Fixed)
+- Parameter
+#5 Regulatory Fees (fixed)
+- Parameter
+
+#5 Occupancy Rate
+-Measure
+#5 Average Rental Period (Nights)
+-Parameter
+
+#6 Sample Nightly Rent Price
+- Measure 
+#6 Percentile 10Th Price
+- Measure
+#6 Percentile 90Th Price
+- Measure
+#6 Percentile 10Th Price
+- Measure
 
 Measures: Make a bar graph for each
 * Yearly'Cash'Flow'(Conversion'Year)
