@@ -13,6 +13,8 @@ ELSE 0
 End
 
 ### Calculated Fields & Parameters & Measures
+In order for the query to work for both Dynamic & Fixed Bins. Parameters and calculated fields have to be created and completed first.
+Both Dynamic and Variable versions are needed for the same measure. 
 
 1# Yearly Profits (Yr After Conversion) Variable
 [Annaul Changes to Cash in  (Variable)] - [Annual Allocation Expenses (Year After)Variable)]
