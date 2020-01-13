@@ -1,4 +1,6 @@
-### Creating a binary bin (Fixed & Dynamic)
+### Setting up Tableau Work Book
+
+## Creating a binary bin (Fixed & Dynamic)
 I do not want to sound intimidating or whatsoever, but there is indeed a lot of behind-the-scene work and preparations involved in that
 simple IF function. I will highlight the most important ones below.
 
@@ -14,7 +16,7 @@ THEN 1
 ELSE 0
 End
 
-### Calculated Fields & Parameters & Measures
+## Calculated Fields & Parameters & Measures
 In order for the query to work for both Dynamic & Fixed Bins. Parameters and calculated fields have to be created and completed first.
 Both Dynamic and Variable versions are needed for the same measure. 
 
@@ -149,3 +151,9 @@ Both Dynamic and Variable versions are needed for the same measure.
 Step 1: Create Parameters (Fixed and Variable)
 Step 2: Create Calculated fields (Fixed and Variable)
 Step 3: Create Query for Bins (Fixed and Dynamic)
+
+## Create Table
+
+## Create Bar Graphs
+
+## Dash Board
