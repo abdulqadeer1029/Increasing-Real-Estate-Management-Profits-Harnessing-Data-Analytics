@@ -1,4 +1,4 @@
-### Creating a binary bin
+### Creating a binary bin (Fixed & Dynamic)
 
 # Dynamic 
 If [Yearly Profits (Yr After Conversion) Variable] >=[Profitablilty Cut-off (Dynamic)]
@@ -11,6 +11,8 @@ If [Yearly Profits (conversion Yr) Fixed] >=[Profitablilty Cut-off (fixed)]
 THEN 1
 ELSE 0
 End
+
+### Calculated Fields & Parameters
 
 1# Yearly Profits (Yr After Conversion) Variable
 [Annaul Changes to Cash in  (Variable)] - [Annual Allocation Expenses (Year After)Variable)]
@@ -139,3 +141,7 @@ End
 - Measure
 #6 Percentile 10Th Price
 - Measure
+
+Step 1: Create Parameters (Fixed and Variable)
+Step 2: Create Calculated fields (Fixed and Variable)
+Step 3: Create Query for Bin (Fixed and Dynamic)
