@@ -1,12 +1,12 @@
 ### Creating a binary bin (Fixed & Dynamic)
 
-# Dynamic 
+# Dynamic Query
 If [Yearly Profits (Yr After Conversion) Variable] >=[Profitablilty Cut-off (Dynamic)]
 THEN 1
 ELSE 0
 End
 
-# Fixed
+# Fixed Query
 If [Yearly Profits (conversion Yr) Fixed] >=[Profitablilty Cut-off (fixed)]
 THEN 1
 ELSE 0
