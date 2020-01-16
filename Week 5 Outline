@@ -21,15 +21,40 @@ Link:
 https://www.coursera.org/learn/analytics-capstone/discussions/weeks/5/threads/8oNVf0JXEeakuhJbRt69hQ
 
 github: tableau workbook
+
+
+Comment:
+Once you have upload the table into Tableau, you want to duplicate all the columns in the "Capstone-Template-Spreadsheets-5-to-6-updated"
+workbook. That means columns V to AQ of the "5-Forecast Cash Flow + Profits" worksheet and columns F to I of the "6 - Sorting by
+profitability" worksheet.
+
+Measures:
 Net Change in Profits, each year thereafter
 Net Change in Cash Flow, each year thereafter
 Net Change in Profits, conversion year
 Net Forecast Change in Cash Flow, conversion year
 
-Comment:
-Once you have upload the table into Tableau, you want to duplicate all the columns in the "Capstone-Template-Spreadsheets-5-to-6-updated"
-workbook. That means columns W to AQ of the "5-Forecast Cash Flow + Profits" worksheet and columns F to I of the "6 - Sorting by
-profitability" worksheet.
+V to AQ: 
+Interim Result 1
+Interim Result 2
+Interim Result 3
+Optimal Rent
+Correct Nightly $ Rent, given constraint that rent must be >= 10th percentile
+Correct Nightly Rent Normalized to Percentile
+Correct Forecast Occupancy Rate 
+Forecast ST Annual Revenues Before Transaction Fees
+Forecast ST Annual Revenues After Transaction Fees
+LT Annual Revenues
+Change in Gross Rental Revenue
+Variable Costs - Conversion Year and After
+New Cash Out,  Conversion year 
+New Cash Out - each year thereafter
+New Change in Profits, Conversion Year
+New Change in Profits, Each Year Thereafter
+Net Forecast Change in Cash Flow, Conversion Year 
+Net Change in Cash Flow, Each Year Thereafter (for next 4 years) 
+Net Change in Profits, Conversion year
+Net Change in Profits, each year thereafter (for next 4 years) 
 
 Parameters: Refer to the "Forecast cash flow + profits" worksheets. The parameters are in column AG.
 Capital expenditure
