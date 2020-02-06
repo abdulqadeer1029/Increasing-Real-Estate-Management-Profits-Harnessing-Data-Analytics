@@ -1,1 +1,28 @@
-### safsdf
+### Setting up Capstone Workbook
+
+## Data for Tableau
+Link: https://www.coursera.org/learn/analytics-capstone/discussions/weeks/5/threads/lFqc8qSrEemiqBLSYIJslg
+
+## Creating the Table in Tableau
+Link: https://www.coursera.org/learn/analytics-capstone/discussions/weeks/6/threads/nWQpXxBKEeaqig5uXwUeGw
+
+## How to Get Started Making your Watershed Dashboard
+* Create Measures And Parameters (Dynamic & Variable)
+
+Comment: Do the numbers  depicted in your bar graphs add up to the same aggregate numbers you found in your Excel 
+spreadsheet? If not, check all your calculations and parameter values. If so, congratulations, 
+most of the hard work is done! You are ready for the next step!
+
+step 3: Combine the *bar chart that uses the original assumptions with the bar chart that uses dynamic assumptions Lesson 3.
+Watch the video Bar in Bar Graphs in Tableau to find out how!
+
+Step 4: Watch the video *Histograms in Tableau to find out how to make a histogram
+
+Step 5: Incorporate all the graphs you have made into one dashboard that you will use for your sensitivity analysis Lesson 3
+
+Link: https://www.coursera.org/learn/analytics-capstone/supplement/IKCbS/how-to-get-started-making-your-dashboard
+
+## Additional Chart fo Your Sensitivity Analysis
+* Histogram and box plot
+Link: https://www.coursera.org/learn/analytics-capstone/supplement/aIcUx/additional-charts-for-your-sensitivity-analysis
+
