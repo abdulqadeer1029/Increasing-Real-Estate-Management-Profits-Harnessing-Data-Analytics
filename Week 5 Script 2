@@ -29,6 +29,15 @@ Comment: Do the numbers  depicted in your bar graphs add up to the same aggregat
 spreadsheet? If not, check all your calculations and parameter values. If so, congratulations, 
 most of the hard work is done! You are ready for the next step!
 
+You need to create TWO copies for each of those parameters in Tableau, one fixed, on dynamic.
+
+Key points:
+(1) you REALLY need to create two versions of each parameter, a fixed version and a dynamic version.
+(2) create two versions of each calculated field as well, as version using the fixed parameters, the other version using the dynamic 
+parameters. It will not only help you with the table, you need that for the final dashboard that you are presenting to the Watershed
+executives as well, so that they can change the parameters and see how the changes will impact cash flows, profits, number of profitable
+properties and total cash need for conversion.
+
 Step 2: You need to create a *binary calculated field. 
 Ex. formula 
 IF [(Dynamic)Net Change in Profits, each year thereafter (for next 4 years) ]>=[(Dynamic)Profit Cut-off Threshold]
