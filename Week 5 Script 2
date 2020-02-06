@@ -13,6 +13,13 @@ Comment: Do the numbers  depicted in your bar graphs add up to the same aggregat
 spreadsheet? If not, check all your calculations and parameter values. If so, congratulations, 
 most of the hard work is done! You are ready for the next step!
 
+Step 2: You need to create a binary calculated field. 
+Ex. formula 
+IF [(Dynamic)Net Change in Profits, each year thereafter (for next 4 years) ]>=[(Dynamic)Profit Cut-off Threshold]
+THEN 1
+ELSE 0
+END
+
 step 3: Combine the *bar chart that uses the original assumptions with the bar chart that uses dynamic assumptions Lesson 3.
 Watch the video Bar in Bar Graphs in Tableau to find out how!
 
