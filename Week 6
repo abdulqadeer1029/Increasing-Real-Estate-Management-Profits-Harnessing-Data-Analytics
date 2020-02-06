@@ -1,2 +1,17 @@
 ### The Guide to a Jittered Map
 Link: https://www.coursera.org/learn/analytics-capstone/discussions/weeks/6/threads/nWQpXxBKEeaqig5uXwUeGw
+
+Step 1:
+Detalis:
+City
+State 
+Zipcode
+
+Columns: Longitude 
+Rows: Latitude
+
+Comment: Now, right-click on the map and choose "View Data", you'll have this:
+
+Step 2: Step2: Rename "latitude (generated)" and "longitude (generated)"
+
+Step 3: Open your modified exported file in Tableau as a new data source. Make a left join with you main data on "ws property Id" .
