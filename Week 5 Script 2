@@ -9,19 +9,40 @@ Link: https://www.coursera.org/learn/analytics-capstone/discussions/weeks/5/thre
 ## How to Get Started Making your Watershed Dashboard
 * Create Measures And Parameters (Dynamic & Variable)
 
+Measures:
+Net Change in Profits, each year thereafter
+Net Change in Cash Flow, each year thereafter
+Net Change in Profits, conversion year
+Net Forecast Change in Cash Flow, conversion year
+
+Parameters:
+Capital expenditure
+Depreciation in years 
+Utility cost every year
+Repairs and Replacements after conversion year
+Variable cost per guest visit
+Average length of guest stay
+Transaction rate
+Cut-off threshold
+
 Comment: Do the numbers  depicted in your bar graphs add up to the same aggregate numbers you found in your Excel 
 spreadsheet? If not, check all your calculations and parameter values. If so, congratulations, 
 most of the hard work is done! You are ready for the next step!
 
-Step 2: You need to create a binary calculated field. 
+Step 2: You need to create a *binary calculated field. 
 Ex. formula 
 IF [(Dynamic)Net Change in Profits, each year thereafter (for next 4 years) ]>=[(Dynamic)Profit Cut-off Threshold]
 THEN 1
 ELSE 0
 END
 
-step 3: Combine the *bar chart that uses the original assumptions with the bar chart that uses dynamic assumptions Lesson 3.
+Step 3: Combine the *bar chart that uses the original assumptions with the bar chart that uses dynamic assumptions Lesson 3.
 Watch the video Bar in Bar Graphs in Tableau to find out how!
+Measures: Make a bar graph for each
+* Yearly'Cash'Flow'(Conversion'Year)
+* Yearly'Cash'Flow'(After'Conversion'Year)
+* Yearly'Profits"(Conversion"Year)
+* Yearly'Profits'(After'Conversion'Year)
 
 Step 4: Watch the video *Histograms in Tableau to find out how to make a histogram
 
