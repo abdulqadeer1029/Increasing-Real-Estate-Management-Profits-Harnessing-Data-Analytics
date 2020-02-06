@@ -26,8 +26,8 @@ Transaction rate
 Cut-off threshold
 
 Comment: Do the numbers  depicted in your bar graphs add up to the same aggregate numbers you found in your Excel 
-spreadsheet? If not, check all your calculations and parameter values. If so, congratulations, 
-most of the hard work is done! You are ready for the next step!
+spreadsheet? If not, check all your calculations and parameter values. If so, congratulations, most of the hard work is done! You are 
+ready for the next step!
 
 You need to create TWO copies for each of those parameters in Tableau, one fixed, on dynamic.
 
