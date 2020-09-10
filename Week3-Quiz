@@ -2,7 +2,7 @@
 
 1. What is the value of the Slope (Beta)?
 -.002
--.0002
+-.0002 R
 .0002
 -.0004
 
@@ -16,14 +16,14 @@
 .02311
 .0331
 .03311
-.3211
+.3211 R
 
 ### Normalization
 1. Given the data below for a Watershed property, what is the rent percentile for the property?
 Rent: $390
 10th percentile rent: $100
 90th percentile rent: $500
-68.0%
+68.0% R
 76.0%
 66.2%
 78.2%
@@ -35,7 +35,7 @@ Rent: $110
 what is the rent percentile for the property?
 24.5%
 24.2%
-25.2%
+25.2% R
 25.5%
 
 3. Given these data for a Watershed property:
@@ -44,80 +44,80 @@ Rent: $215
 90th percentile rent: $400
 what is the rent percentile for the property?
 41.4%
-40.7%
+40.7%  R
 40.2%
 41.7%
 
 ### Applying Normalization to the Comparable Properties
 1. For the equation of your linear regression for the 244 Watershed properties, what is the value for the Slope (Beta)?
-.8914
--0.7914
+.8914 
+-0.7914 R
 -.8914
 .7914
 
 
 2. For the equation of your linear regression for the 244 Watershed properties, what is the value for the Y-intercept (Alpha)?
 .8679
-.8506
-.9567
+.8506  R
+.9567 
 -.8679
 
 
 3. The coefficient of determination (R-squared) of your linear regression is:
-.59915
-.51591
+.59915 
+.51591 R
 .71951
 .68739
 
 ### Optimization Basics
 1. Using the Solver Revenue Maximization Guide Worksheet, and setting the slope, Beta, to -.01, and the Y-intercept, Alpha, to .99:
 What is the optimal rent to maximize revenues?
-$59.50
+$59.50 
 $59.00
-$49.50
+$49.50 R
 $48.50
 
 2.Using the Solver Revenue Maximization Guide Worksheet, and setting the slope, Beta, to -.01, and the Y-intercept, Alpha, to .99:
 What is the Optimal Occupancy rate?
 45.0%
-45.9%
+45.9% R
 49.0%
 49.5%
 
 3.Using the Solver Revenue Maximization Guide Worksheet, and setting the slope, Beta, to -.01, and the Y-intercept, Alpha, to .99:
 What is the Forecast maximum annual revenues?
 $3,498.41
-$8,943.41
+$8,943.41 R
 $8,943.00
 $8,443.41
 
 ### Optimizing Watershed Rents
 1. For Watershed property 1 (W1), what is the optimal normalized percentile rent?
 26.5%
-10%
+10% R
 15%
 
 2. For Watershed property 1 (W1), what is the optimal rent?
 $127
-$128
-$114
+$128 
+$114 R
 
 3. For Watershed property 12 (W12), what is the maximum forecast revenue after deducting 30% in fees?
-$29,158
+$29,158 R
 $26,487
 $32,792
 
 4. For Watershed property 12 (W12), what is the optimal occupancy rate?
 50%
 40%
-60%
+60% R
 
 5. For Watershed property 21 (W21), what is the optimal occupancy rate?
 62%
-52%
+52% R
 45%
 
 6. For Watershed property 21 (W21), what is the optimal normalized percentile rent?
-41.8%
-46%
+41.8% R
+46% 
 39.0%
